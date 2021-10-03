@@ -8,7 +8,7 @@
 		"dev": "rollup -c -w",
 		"commit": "cz",
 		"test": "react-scripts test",
-		"test:ci": "CI=true react-scripts test"
+		"test:single": "react-scripts test --watchAll=false"
 	},
 	"files": [
 		"dist",

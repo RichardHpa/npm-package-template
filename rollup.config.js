@@ -17,6 +17,16 @@ export default [
 				format: 'es',
 				exports: 'named',
 			},
+			{
+				file: 'dist/index.umd.js',
+				format: 'umd',
+				name: 'npmPackageTemplate',
+			},
+			{
+				file: 'dist/index.umd.min.js',
+				format: 'umd',
+				name: 'npmPackageTemplate',
+			},
 		],
 		plugins: [
 			postcss({
