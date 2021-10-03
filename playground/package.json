@@ -3,10 +3,10 @@
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
+		"npm-package-template": "../",
 		"react": "../node_modules/react",
 		"react-dom": "../node_modules/react-dom",
-		"react-scripts": "^4.0.3",
-		"npm-package-template": "../"
+		"react-scripts": "../node_modules/react-scripts"
 	},
 	"scripts": {
 		"start": "react-scripts start",
@@ -30,5 +30,8 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
+	},
+	"devDependencies": {
+		"husky": "^7.0.2"
 	}
 }
