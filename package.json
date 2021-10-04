@@ -10,7 +10,9 @@
 		"test": "react-scripts test",
 		"test:single": "react-scripts test --watchAll=false",
 		"check-coverage": "react-scripts test --coverage --watchAll=false",
-		"report-coverage": "cat ./coverage/lcov.info | codecov"
+		"report-coverage": "cat ./coverage/lcov.info | codecov",
+		"playground:install": "npm install --prefix playground",
+		"playground:start": "npm start --prefix playground"
 	},
 	"files": [
 		"dist",
