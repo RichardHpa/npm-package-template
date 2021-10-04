@@ -28,6 +28,7 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: npm run test:ci
+      - run: npm run check-coverage
       - run: npm run build
 
       - name: Upload coverage to Codecov

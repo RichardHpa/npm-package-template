@@ -8,7 +8,9 @@
 		"dev": "rollup -c -w",
 		"commit": "cz",
 		"test": "react-scripts test",
-		"test:single": "react-scripts test --watchAll=false"
+		"test:single": "react-scripts test --watchAll=false",
+		"check-coverage": "react-scripts test --coverage --watchAll=false",
+		"report-coverage": "cat ./coverage/lcov.info | codecov"
 	},
 	"files": [
 		"dist",
