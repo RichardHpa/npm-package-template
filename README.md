@@ -5,7 +5,7 @@
 [![forks - npm-package-template](https://img.shields.io/github/forks/RichardHpa/npm-package-template?style=social)](https://github.com/RichardHpa/npm-package-template)
 
 [![Node.js CI](https://github.com/RichardHpa/npm-package-template/workflows/Node.js%20CI/badge.svg)](https://github.com/RichardHpa/npm-package-template/actions?query=workflow:"Node.js+CI")
-[![codecov coverage](https://img.shields.io/codecov/c/github/RichardHpa/npm-package-template.svg?style=flat-square)](https://codecov.io/github/RichardHpa/starwars-names)
+[![codecov coverage](https://img.shields.io/codecov/c/github/RichardHpa/npm-package-template.svg?style=flat-square)](https://codecov.io/github/RichardHpa/npm-package-template)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
 A template Repo for making custom npm packages
