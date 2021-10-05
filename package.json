@@ -4,6 +4,7 @@
 	"description": "A basic template for a npm package",
 	"main": "dist/index.js",
 	"scripts": {
+		"setup": "node scripts/setup",
 		"build": "rollup -c",
 		"dev": "rollup -c -w",
 		"commit": "cz",
